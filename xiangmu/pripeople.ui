@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pripeople</class>
+ <widget class="QWidget" name="Pripeople">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>421</width>
+     <height>236</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="xue">
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="xing">
+      <property name="text">
+       <string>学号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ci">
+      <property name="text">
+       <string>签到次数</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lv">
+      <property name="text">
+       <string>出勤率:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/zhenzi1.jpg);</string>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>layoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
